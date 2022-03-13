@@ -1,11 +1,11 @@
-name: First GitHub Action
+name : First GitHub Action
 
-on: [push]
+on : [push]
 
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Greet the Dev
-    - run: echo "Hello Dev, this is my first GitHub Action"
+jobs :
+  greeting :
+    runs-on : ubuntu-latest
+    steps :
+    - name : Greet the Dev
+    - run : echo "Hello Dev, this is my first GitHub Action"
     
