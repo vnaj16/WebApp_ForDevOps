@@ -8,4 +8,19 @@ jobs :
     steps :
     - name : Greet the Dev
       run : echo "Hello Dev, this is my first GitHub Action"
+  build :
+    runs-on : ubuntu-latest
+    steps :
+    - name : Build NET
+      run : echo "Aca ejecutaria el comando para Build un ASP.NET App"
+  test :
+    runs-on : ubuntu-latest
+    steps :
+    - name : Test with xUnit
+      run : echo "Aca ejecutaria los Unit Test y demas"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: deploy to Server
+      run: echo "Aca ejecutaria el comando para Publicar una aplicación"
     
