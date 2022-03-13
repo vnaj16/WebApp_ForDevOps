@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Greet the Dev
-    run: echo "Hello Dev, this is my first GitHub Action"
+    - run: echo "Hello Dev, this is my first GitHub Action"
     
