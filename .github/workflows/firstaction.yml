@@ -21,7 +21,7 @@ jobs :
     - run: |
         pwd
         ls
-        dotnet build
+        dotnet build WebApp_ForDevOps.csproj
   test :
     runs-on : ubuntu-latest
     steps :
