@@ -17,8 +17,8 @@ jobs :
       uses: actions/setup-dotnet@v2.0.0
       with:
         # Optional SDK version(s) to use. If not provided, will install global.json version when available. Examples: 2.2.104, 3.1, 3.1.x
-        dotnet-version: '5.0'
-    - run: dotnet build WebApp_ForDevOps/WebApp_ForDevOps.csproj
+        dotnet-version: '6.0'
+    - run: dotnet build
   test :
     runs-on : ubuntu-latest
     steps :
