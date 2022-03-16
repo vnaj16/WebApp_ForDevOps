@@ -18,7 +18,10 @@ jobs :
       with:
         # Optional SDK version(s) to use. If not provided, will install global.json version when available. Examples: 2.2.104, 3.1, 3.1.x
         dotnet-version: '6.0'
-    - run: dotnet build
+    - run: |
+        pwd
+        ls
+        dotnet build
   test :
     runs-on : ubuntu-latest
     steps :
